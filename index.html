@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Transfer Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>File Transfer Website</h1>
+    </header>
+    <main>
+      <form id="upload-form">
+        <h2>Upload File</h2>
+        <label for="file-input">Select a file:</label>
+        <input type="file" id="file-input" name="file" accept=".txt,.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip,.rar" required>
+        <button type="submit">Upload</button>
+      </form>
+      <div id="download-link-container" style="display: none;">
+        <h2>Download Link</h2>
+        <p>Share this link with the person who needs to download the file:</p>
+        <input type="text" id="download-link" readonly>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
