@@ -15,8 +15,7 @@ Paste this in console -
 git clone https://github.com/RockingRockers/SharePointPlace.git
 ```
 
-Then rename SharePointPlace folder to webroo
-simply start the server then
+Then rename SharePointPlace folder to webroot simply start the server! Enjoy!
 
 # NOTE 
 # I recommend to use DanBotHosts Nignx server!
