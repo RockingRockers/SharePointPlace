@@ -15,3 +15,9 @@ Paste this in console -
 git clone https://github.com/RockingRockers/SharePointPlace.git
 ```
 
+Then rename SharePointPlace folder to webroot 
+simply start the server then
+
+# NOTE 
+I recommend to use DanBotHosts Nignx server! 
+If any errors report in my [discord server](https://dsc.gg/monstergang)
